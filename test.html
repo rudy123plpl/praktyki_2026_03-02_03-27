@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Liceum Ogólnokształcące</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- czcionka -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+font-family:'Montserrat', sans-serif;
+}
+
+.main{
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("szkola.jpg");
+background-size:cover;
+background-position:center;
+color:white;
+padding:120px 0;
+text-align:center;
+}
+
+.card{
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.03);
+}
+
+footer{
+background:#ccc7c7be;
+color:rgb(78, 34, 34);
+}
+
+.profile-section{
+background:#910c0cb6
+}
+.custom-navbar{
+background:rgba(0, 0, 0, 0.7);
+}
+
+</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+<div class="container">
+<a class="navbar-brand" href="#">Liceum nr 1</a>
+
+<div class="collapse navbar-collapse justify-content-end" id="menu">
+<ul class="navbar-nav">
+
+<li class="nav-item">
+<a class="nav-link" href="#aktualnosci">Aktualności</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#profile">Profile klas</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#szkola">O szkole</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#kontakt">Kontakt</a>
+</li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<section class="main">
+<div class="container">
+<h1>Liceum Ogólnokształcące nr 1</h1>
+<p class="lead mt-3">imienia xyz</p>
+</div>
+</section>
+
+<section id="aktualnosci" class="py-5">
+<div class="container">
+<h2 class="text-center mb-4">Aktualności</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card p-3">
+<h5>Dzień otwarty</h5>
+<p>Zapraszamy na dzień otwarty.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3">
+<h5>Konkurs matematyczny</h5>
+<p>Turniej klas 1-4.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3">
+<h5>Wycieczka szkolna</h5>
+<p>Wycieczka do Krakowa.</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="profile" class="py-5 profile-section">
+<div class="container">
+<h2 class="text-center mb-4">Profile klas</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card p-3 text-center">
+<h4>Matematyczno-informatyczny</h4>
+<p>Rozszerzona matematyka i informatyka.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 text-center">
+<h4>Biologiczno-chemiczny</h4>
+<p>Profil dla przyszłych lekarzy i studentów kierunków medycznych.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 text-center">
+<h4>Humanistyczny</h4>
+<p>Rozszerzony język polski oraz historia.</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="szkola" class="py-5">
+<div class="container">
+<h2 class="text-center mb-4">O naszej szkole</h2>
+<p>Liceum Ogólnokształcące nr 1 to najlepsza szkoła w Bielsku</p>
+<p>Nasi uczniowie osiągają dobre wyniki na egzaminach maturalnych.</p>
+</div>
+</section>
+
+<section id="kontakt" class="py-5 profile-section">
+<div class="container">
+<h2 class="text-center mb-4">Kontakt</h2>
+
+<div class="row justify-content-center">
+<div class="col-md-6">
+
+<input class="form-control mb-3" placeholder="Imię i nazwisko">
+<input class="form-control mb-3" placeholder="Email">
+<textarea class="form-control mb-3" rows="3" placeholder="Wiadomość"></textarea>
+
+<button class="btn btn-danger w-100">Wyślij</button>
+
+</div>
+</div>
+
+</div>
+</section>
+
+<footer class="text-center py-3">
+<p class="mb-0">stopka</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
